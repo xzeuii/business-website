@@ -123,6 +123,10 @@ img {
 }
 
 .spoken {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -133,23 +137,13 @@ img {
 .name {
     color: black;
     justify-items: flex-end;
+    font-size: 16px;
+    font-weight: bold;
+    align-self: flex-end;
 }
 
 a, .smry, .cright {
     text-decoration: none;
     font-size: 18px;
     color: #e5e7eb;
-}
-
-.spoken {
-    font-size: 36px;
-    font-style: italic;
-    font-weight: lighter;
-    color: #1f2937;
-}
-
-.name {
-    font-size: 16px;
-    font-weight: bold;
-    align-self: flex-end;
 }
