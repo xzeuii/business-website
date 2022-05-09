@@ -159,6 +159,21 @@ img {
     width: 700px;
 }
 
+.tt {
+    font-weight: bolder;
+    font-size: 16px;
+}
+
+.mt {
+    font-size: 12px;
+}
+
+.clkjn {
+    color: black;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
 .join {
     border: solid white 2px;
     background-color: skyblue;
