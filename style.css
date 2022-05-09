@@ -9,16 +9,12 @@ body {
 .header {
     display: flex;
     background-color: #1F2937;
+    justify-content: space-between;
 }
 
 .main {
     display: flex;
     flex-direction: column;
-}
-
-.info {
-    display: flex;
-    background-color: #1F2937;
 }
 
 .rando {
@@ -32,9 +28,69 @@ body {
     background-color: grey;
 }
 
-.footer {
+.footer, .info {
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: #1F2937;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+}
+
+a, .smry, .cright {
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.facts {
+    color: rgb(100, 98, 98);
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.ctch{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.fctbx {
+    width: 150px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.head {
+    font-size: 24px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.quote {
+    align-self: center;
+    display: flex;
+    flex-flow: column wrap;
+    width: 600px;
+    padding: 20px;
+}
+
+.spoken {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+}
+
+.name {
+    font-size: 16px;
+    font-weight: bold;
+    align-self: flex-end;
 }
