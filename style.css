@@ -8,28 +8,52 @@ body {
     margin: 0;
 }
 
-.header {
+.header, .footer {
     display: flex;
     background-color: #1F2937;
-    justify-content: space-between;
     padding: 12px 16px;
     margin: 0;
     width: 100%;
 }
 
+.header {
+    justify-content: space-between;
+}
+
+.footer {
+    justify-content: center;
+}
+
 .logo, .links {
-    gap: 8px;
-    padding: 0 8px;
+    gap: 16px;
+    padding: 0 16px;
 }
 
 .intro {
     display: flex;
-    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+    column-gap: 150px;
+    padding: 8px 16px;
+}
+
+.herm {
+    display: flex;
+    flex-flow: column wrap;
+    max-width: 450px;
+    gap: 8px;
+}
+
+img {
+    width: 300px;
+    height: auto;
 }
 
 .main {
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 
 .rando {
@@ -41,13 +65,6 @@ body {
 .quote {
     display: flex;
     background-color: grey;
-}
-
-.footer, .info {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #1F2937;
 }
 
 .links {
