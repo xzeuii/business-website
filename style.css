@@ -115,6 +115,11 @@ img {
 }
 
 .quote {
+    align-self: center;
+    display: flex;
+    flex-flow: column wrap;
+    width: 600px;
+    padding: 20px;
     display: flex;
     background-color: grey;
 }
@@ -126,11 +131,6 @@ a, .smry, .cright {
 }
 
 .quote {
-    align-self: center;
-    display: flex;
-    flex-flow: column wrap;
-    width: 600px;
-    padding: 20px;
 }
 
 .spoken {
