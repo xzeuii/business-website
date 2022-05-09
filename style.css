@@ -3,11 +3,12 @@ body {
     flex-direction: column;
     background-color: white;
     align-items: center;
-    justify-content: space-evenly;
+    margin: 0;
 }
 
 .header {
     display: flex;
+    background-color: #1F2937;
 }
 
 .main {
@@ -17,14 +18,18 @@ body {
 
 .info {
     display: flex;
+    background-color: #1F2937;
 }
 
 .rando {
+    align-items: center;
     display: flex;
+    flex-direction: column;
 }
 
 .quote {
     display: flex;
+    background-color: grey;
 }
 
 .footer {
