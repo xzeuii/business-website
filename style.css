@@ -116,9 +116,7 @@ img {
 
 .quote {
     align-self: center;
-    display: flex;
-    flex-flow: column wrap;
-    width: 600px;
+    flex-direction: column;
     padding: 20px;
     display: flex;
     background-color: grey;
@@ -128,9 +126,6 @@ a, .smry, .cright {
     text-decoration: none;
     font-size: 18px;
     color: #e5e7eb;
-}
-
-.quote {
 }
 
 .spoken {
