@@ -3,6 +3,7 @@ body {
     flex-direction: column;
     background-color: white;
     align-items: center;
+    padding: 0;
     margin: 0;
 }
 
@@ -10,6 +11,14 @@ body {
     display: flex;
     background-color: #1F2937;
     justify-content: space-between;
+    padding: 12px 16px;
+    margin: 0;
+    width: 100%;
+}
+
+.logo, .links {
+    gap: 8px;
+    padding: 0 8px;
 }
 
 .main {
