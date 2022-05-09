@@ -22,6 +22,11 @@ body {
     padding: 0 8px;
 }
 
+.intro {
+    display: flex;
+    flex-direction: column;
+}
+
 .main {
     display: flex;
     flex-direction: column;
