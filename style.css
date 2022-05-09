@@ -76,12 +76,14 @@ img {
     align-items: center;
     display: flex;
     flex-direction: column;
+    padding: 12px;
 }
 
 .head {
     font-size: 24px;
     font-weight: bolder;
     color: #1f2937;
+    padding-top: 8px;
 }
 
 .facts {
@@ -97,12 +99,19 @@ img {
     width: 150px;
     height: 150px;
     border: solid 5px #1F2937;
-    border-radius: 15px;;
+    border-radius: 15px;
+    margin-bottom: 8px;
 }
 
 .fctbx{
     display: flex;
-    flex-direction: column;
+    flex-flow: column wrap;
+    width: 175px;
+    align-items: center;
+}
+
+.fact {
+    text-align: center;
 }
 
 .quote {
@@ -114,10 +123,6 @@ a, .smry, .cright {
     text-decoration: none;
     font-size: 18px;
     color: #e5e7eb;
-}
-
-.fctbx {
-    width: 150px;
 }
 
 .quote {
