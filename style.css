@@ -26,10 +26,6 @@ body {
     justify-content: space-between;
 }
 
-.footer {
-    justify-content: center;
-}
-
 .logo, .links {
     gap: 16px;
     padding: 0 16px;
@@ -142,6 +138,10 @@ img {
     align-self: flex-end;
 }
 
+.footer {
+    justify-content: center;
+    padding: 30px;
+}
 a, .smry, .cright {
     text-decoration: none;
     font-size: 18px;
